@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.card{
+    max-width: 400px;
+    background: black;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 0 7px 5px 2px rgb(0, 0, 0,0.9);
+    font-size: 0;
+    margin: auto;
+}
+.card-head input{
+    width: 395px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 5px;
+}
+.button{
+    margin: 5px 0;
+}
+.btn{
+    width: 56px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgb(116, 112, 112);
+    background-color: rgb(116, 112, 112);
+    color: white;
+    border-radius: 5px;
+}
+.btn1{
+    width: 69px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    border: 1px solid #1f2326;
+    background-color: #1f2326;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#color{
+    color: black;
+    background-color: rgb(236, 141, 17);
+    border: 1px solid rgb(236, 141, 17);
+}
+#color:hover{
+    background-color: rgb(173, 102, 10);
+    border: 1px solid rgb(173, 102, 10);
+}
+#colors1{
+    color: black;
+    background-color: rgb(243, 229, 29);
+    border: 1px solid rgb(243, 229, 29);
+}
+#colors1:hover{
+    background-color: rgb(184, 73, 33);
+    border: 1px solid rgb(184, 73, 33);
+}
+#colors2{
+    color: white;
+    background-color: rgb(121, 90, 121);
+    border: 1px solid rgb(121, 90, 121);
+}
+#colors2:hover{
+    background-color: rgb(77, 40, 77);
+    border: 1px solid rgb(77, 40, 77);
+}

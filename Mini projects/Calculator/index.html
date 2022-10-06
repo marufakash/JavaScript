@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <h1>Scientific Calculator</h1>
+    <div class="card">
+        <div class="card-head">
+            <input type="text" id="text" maxlength="15">
+        </div>
+        <div class="card-body">
+            <div class="button">
+                <input type="button" onclick="numShow()" class="btn" id="colors1" value="SHIFT">
+                <input type="button" onclick="numShow()" class="btn" id="colors2" value="ALPHA">
+                <input type="button" onclick="numShow()" class="btn" value="ICON">
+                <input type="button" onclick="numShow()" class="btn" value="ICON">
+                <input type="button" onclick="numShow()" class="btn" value="MODE">
+                <input type="button" onclick="numShow()" class="btn" value="2nd">
+            </div>
+            <div class="button">
+                <input type="button" onclick="numShow()" class="btn" value="CALC">
+                <input type="button" onclick="numShow()" class="btn" value="ALPHA">
+                <input type="button" onclick="numShow()" class="btn" value="ICON">
+                <input type="button" onclick="numShow()" class="btn" value="ICON">
+                <input type="button" onclick="numShow()" onclick="numShow()" class="btn" value="MODE">
+                <input type="button" onclick="numShow()" class="btn" value="2nd">
+            </div>
+            <div class="button">
+                <input type="button" onclick="numShow()" class="btn" value="SHIFT">
+                <input type="button" onclick="numShow()" class="btn" value="ALPHA">
+                <input type="button" onclick="numShow()" class="btn" value="ICON">
+                <input type="button" onclick="numShow()" class="btn" value="ICON">
+                <input type="button" onclick="numShow()" class="btn" value="Log">
+                <input type="button" onclick="numShow()" class="btn" value="Ln">
+            </div>
+            <div class="button">
+                <input type="button" onclick="numShow()" class="btn" value="(-)">
+                <input type="button" onclick="numShow()" class="btn" value="' ">
+                <input type="button" onclick="numShow()" class="btn" value="hyp">
+                <input type="button" onclick="numShow('Sin')" class="btn" value="Sin">
+                <input type="button" onclick="numShow()" class="btn" value="Cos">
+                <input type="button" onclick="numShow()" class="btn" value="Tan">
+            </div>
+            <div class="button">
+                <input type="button" onclick="numShow()" class="btn" value="RCL">
+                <input type="button" onclick="numShow()" class="btn" value="ENG">
+                <input type="button" onclick="numShow()" class="btn" value="(">
+                <input type="button" onclick="numShow()" class="btn" value=")">
+                <input type="button" onclick="numShow()" class="btn" value="S=D">
+                <input type="button" onclick="numShow()" class="btn" value="M+">
+            </div>
+            <div class="button">
+                <input type="button" onclick="numShow('7')" class="btn1" value="7">
+                <input type="button" onclick="numShow('8')" class="btn1" value="8">
+                <input type="button" onclick="numShow('9')" class="btn1" value="9">
+                <input type="button" onclick="del()" class="btn1" id="color" value="DEL">
+                <input type="button" onclick="clrAll()" class="btn1" id="color" value="AC">
+            </div>
+            <div class="button">
+                <input type="button" onclick="numShow('4')" class="btn1" value="4">
+                <input type="button" onclick="numShow('5')" class="btn1" value="5">
+                <input type="button" onclick="numShow('6')" class="btn1" value="6">
+                <input type="button" onclick="numShow('*')" class="btn1" value="x">
+                <input type="button" onclick="numShow('/')" class="btn1" value="÷">
+            </div>
+            <div class="button">
+                <input type="button" onclick="numShow('1')" class="btn1" value="1">
+                <input type="button" onclick="numShow('2')" class="btn1" value="2">
+                <input type="button" onclick="numShow('3')" class="btn1" value="3">
+                <input type="button" onclick="numShow('+')" class="btn1" value="+">
+                <input type="button" onclick="numShow('-')" class="btn1" value="-">
+            </div>
+            <div class="button">
+                <input type="button" onclick="numShow('0')" class="btn1" value="0">
+                <input type="button" onclick="numShow('.')" class="btn1" value=".">
+                <input type="button" onclick="numShow()" class="btn1" value="Exp">
+                <input type="button" onclick="numShow()" class="btn1" value="Ans">
+                <input type="button" onclick="calculate()" class="btn1" value="=">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
